@@ -10,16 +10,13 @@ describe("Unit tests for NumberValidator", () => {
 
       
   describe("verify is numberEven", function() {
-    test("Even number", () => {
+    it("Even number", function() {
       expect(numbersValidator.isNumberEven(8)).toBe(true);
       //expect(nv.isNumberEven(4)).to.be.true;
     });
-    it('should return true when passed an even number', function() {
-      expect(numbersValidator.isNumberEven(8)).toBe(true);
-    });
 
     it("notEven number", () => {
-      expect(numbersValidator.isNumberEven(8)).toBe(`[${number}] is not of type "Number" it is of type "${typeOfVariable}"`);
+      expect(numbersValidator.isNumberEven(7)).toBe(`[${number}] is not of type "Number" it is of type "${typeOfVariable}"`);
       });
     });
 });
