@@ -1,4 +1,4 @@
-const NumbersValidator = require('./NumbersValidator');
+const NumbersValidator = require('./test/NumbersValidator.js');
 const { expect } = require('chai');
 
 describe("Unit tests for NumberValidator", () => {
