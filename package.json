@@ -1,16 +1,25 @@
 {
-  "dependencies": {
-    "mocha": "^10.2.0",
-    "mochawesome": "^7.1.3"
-  }
-  "name": "js_mentoring selfpassed",
+  "name": "unittests",
   "version": "1.0.0",
-  "description": "",
+  "description": "unit testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "coverage": "c8 npm test",
+    "lint": "eslint ./ --fix",
+    "prepare": "cd .. && husky install"
   },
-  "keywords": [],
-  "author": "Tatjana Danchenko",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3"
+  },
+  "dependencies": {
+    "c8": "^7.13.0",
+    "chai": "^4.3.7",
+    "husky": "^8.0.3"
+  }
 }
