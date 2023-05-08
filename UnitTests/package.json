@@ -1,18 +1,24 @@
 {
   "name": "unittests",
   "version": "1.0.0",
-  "description": "",
-  "main": "numbers-validator.js",
+  "type":".cjs",
+  "description": "unit testing",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "c8 npm test"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-google": "^0.14.0",
     "mocha": "^10.2.0",
     "mochawesome": "^7.1.3"
   },
   "dependencies": {
-    "chai": "^4.3.7"
+    "c8": "^7.13.0",
+    "chai": "^4.3.7",
+    "husky": "^8.0.3"
   }
 }
