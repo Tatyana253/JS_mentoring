@@ -1,8 +1,8 @@
 {
   "name": "unittests",
   "version": "1.0.0",
-  "description": "",
-  "main": "numbers-validator.js",
+  "description": "unit testing",
+  "main": "index.js",
   "scripts": {
     "test": "mocha",
     "coverage": "c8 npm test",
