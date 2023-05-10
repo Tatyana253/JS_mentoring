@@ -18,6 +18,8 @@
     "@wdio/mocha-framework": "^8.10.1",
     "@wdio/spec-reporter": "^8.10.1",
     "chromedriver": "^113.0.0",
-    "wdio-chromedriver-service": "^8.1.1"
+    "geckodriver": "^3.2.0",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-geckodriver-service": "^4.1.1"
   }
 }

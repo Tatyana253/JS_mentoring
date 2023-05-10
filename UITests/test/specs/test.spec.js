@@ -46,4 +46,11 @@ describe("test suite for ej2.syncfusion.com", () => {
     );
     expect(await errorEmail).toHaveTextContaining("Enter valid email");
   });
+  it("Failed test to verify screenshot", async () => {
+    await browser.url(
+      "https://ej2.syncfusion.com/showcase/angular/appointmentplanner/#/dashboard"
+    );
+    const pageTitle = await $("//h1");
+    expect(await pageTitle.getText()).toEqual("APPOINTMENT PLANNER  ");
+  });
 });
