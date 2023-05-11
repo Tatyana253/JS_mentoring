@@ -1,0 +1,23 @@
+{
+  "name": "po",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./src/config/wdio.conf.js"
+  },
+  "keywords": [
+    "po"
+  ],
+  "author": "Tatjana Danchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.10.2",
+    "@wdio/local-runner": "^8.10.2",
+    "@wdio/mocha-framework": "^8.10.2",
+    "@wdio/spec-reporter": "^8.10.2",
+    "chromedriver": "^113.0.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
