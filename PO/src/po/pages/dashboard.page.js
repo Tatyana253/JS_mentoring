@@ -1,5 +1,5 @@
-const SideMenuComponent = require("../components/common/sidemenu.component");
-const BasePage = require("../components/doctors/basePage");
+const BasePage = require("./base.page");
+const SideMenuComponent = require("./../components/common/sidemenu.component");
 
 class DashboardPage extends BasePage {
 
