@@ -12,6 +12,10 @@ class AddDoctorComponent extends BaseComponent {
     return this.rootEl.$('.new-doctor-dialog .e-dlg-closeicon-btn');
   }
 
+  get errorEmail() {
+    return $("//div/label[@id='Email-info']");
+  }
+
   
 /**
  * 
