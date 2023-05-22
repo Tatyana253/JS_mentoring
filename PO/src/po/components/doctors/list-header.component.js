@@ -8,6 +8,10 @@ constructor() {
   get addNewDoctorBtn() {
     return this.rootEl.$("button.e-control");
   }
+  get selectSpecialization() {
+    return $('#Specialization .e-input-group.e-control-wrapper');
+  }
+
 }
 
 module.exports = ListHeaderComponent;

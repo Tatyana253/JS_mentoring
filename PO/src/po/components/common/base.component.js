@@ -6,6 +6,7 @@ class BaseComponent {
     get rootEl() {
         return $(this.rootSelector);
     }
+    
 }
 
 module.exports = BaseComponent;
